@@ -27,7 +27,7 @@ class ProfileHeader extends Component {
               </p>
               <p>
                 {profile.status}{" "}
-                {isEmpty(profile.location) ? null : <p>{profile.location}</p>}
+                {isEmpty(profile.location) ? null : profile.location}
               </p>
               <p>
                 {isEmpty(profile.website) ? null : (
